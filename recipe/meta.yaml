@@ -1,5 +1,5 @@
 {% set name = "fuzzytm" %}
-{% set version = "2.0.5" %}
+{% set version = "2.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/FuzzyTM-{{ version }}.tar.gz
-  sha256: 2042e48dddffc9cda5058b0b3fa9a6b3d2c471739f56d34da2810a08c7fd06d5
+  sha256: cf411262d07b06ab2cc481e5addd05fbfa9aa4e3359eb0e2dd98a1e52be00c66
 
 build:
   noarch: python
